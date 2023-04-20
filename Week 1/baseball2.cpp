@@ -20,10 +20,10 @@ int main(){
     }
     //cout << setw(10) << "Number" << setw(10) << "Bat Avg" << endl;
     cout << WID << "Number" << WID << "Bat Avg" << endl;
-    while(!fin.eof()){
-        fin >> number >> atbats >> hits >> walks;
-        //cout << number << " " << atbats << " " << hits 
-        //   << " " << walks << endl;
+    //different read style, may fix double line read
+    while(fin >> number >> atbats >> hits >> walks){
+    //while(!fin.eof()){//original line
+        
         if(atbats == walks){
             batavg = 0;
         }else{
