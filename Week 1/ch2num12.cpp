@@ -7,6 +7,7 @@ int main(){
     //int const SECINHOUR = 60*60;
     int const CONVERT = 60;
 
+//HI cALLE AND CHUCK
     cout << "Enter the number of seconds ";
     cin >> seconds;// >> hours >> minutes;
     cout << "You entered " << seconds << " seconds " << endl;
