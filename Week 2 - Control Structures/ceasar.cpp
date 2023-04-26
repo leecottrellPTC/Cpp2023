@@ -55,8 +55,6 @@ int main(){
            //cout << enc << endl;
         }
         fout << encrypted << endl;
-
-
     }
 
     fout.close();
