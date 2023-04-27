@@ -29,9 +29,6 @@ int main(){
         cout << "Frost.enc not opened\n";
         return -2;
     }
-
-    //do something
-
     while(getline(fin, line)){
         //keep looping as long as there are lines in the file
         //cout << line << endl;
