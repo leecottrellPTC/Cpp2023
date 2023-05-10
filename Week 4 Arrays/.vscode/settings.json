@@ -37,6 +37,7 @@
   "C_Cpp_Runner.showCompilationTime": false,
   "files.associations": {
     "iomanip": "cpp",
-    "array": "cpp"
+    "array": "cpp",
+    "iostream": "cpp"
   }
 }
