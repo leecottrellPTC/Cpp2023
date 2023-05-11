@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/User/OneDrive/ptc/ITP 371 DataStructures and Algorithms/Algorithms/Week 4 - Forecasting and MonteCarlo/forecasting",
-      "program": "c:/Users/User/OneDrive/ptc/ITP 371 DataStructures and Algorithms/Algorithms/Week 4 - Forecasting and MonteCarlo/forecasting/build/Debug/outDebug",
+      "cwd": "c:/Users/User/source/C--2023/Week 4 Arrays/forecasting",
+      "program": "c:/Users/User/source/C--2023/Week 4 Arrays/forecasting/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
