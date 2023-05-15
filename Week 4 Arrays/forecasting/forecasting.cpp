@@ -56,6 +56,11 @@ int main(){
 
 }
 
+/**
+ * @brief 
+ * 
+ * @return double 
+ */
 double avgPastValueTable(){
     double forecast;
     double actual;
