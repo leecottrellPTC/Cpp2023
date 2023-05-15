@@ -13,6 +13,15 @@ default_random_engine randEngine;
 //https://cplusplus.com/reference/random/
 
 double batAvg(int hit, int walk);
+
+/**
+ * @brief 
+ * 
+ * @param hit 
+ * @param walk 
+ * @param rndHit 
+ * @param rndWalk 
+ */
 void randomStats(int &hit, int &walk, uniform_int_distribution<int> rndHit, normal_distribution<double> rndWalk);
 int main()
 {
