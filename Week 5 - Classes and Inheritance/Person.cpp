@@ -8,6 +8,7 @@ Person::~Person()
 {
     //destructor
     //called when variable goes out of scope
+    //cout << "Killing " << fname << endl;
 }
 
 Person::Person(string fName, string lname, string username){

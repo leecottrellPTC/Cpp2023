@@ -9,7 +9,7 @@ class Person
 {
 public:
     Person();
-    ~Person();
+    ~Person();  //destructor
     Person(string fName, string lname, string username);
     Person(string fName, string lName); //use buildUsername
     
