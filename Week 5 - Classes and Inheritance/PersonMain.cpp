@@ -34,16 +34,21 @@ void showPeople(){
 
 int main(){
 
-    fillTheArray();
-    showPeople();
 
-    vector <string>skills;
+    //fillTheArray();
+    //showPeople();
+
+    /*vector <string>skills;
     skills.push_back("Math");
     skills.push_back("Logic");
 
     Employee emp("Kate", "Bush", "Nurse", 50000, skills);
     cout << emp.to_string() << endl;
 
+    for(int s = 0; s < emp.getSKills().size() ; s++){
+        cout << emp.getSKills().at(s) << endl;
+    }
+    */
 
     //parameterized constuctor call
    // Person student("Kate", "Upton", "kupton");

@@ -27,7 +27,11 @@ public:
     inline double getSalary(){
         return salary;
     }
-
+    
+    inline vector<string> getSKills(){
+        return skills;
+    }
+    
     inline void setSkills(vector<string> list){
         skills = list;
     }
