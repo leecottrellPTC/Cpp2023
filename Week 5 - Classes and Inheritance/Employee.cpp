@@ -41,10 +41,13 @@ Employee::Employee(string fname,
 */
 
 string Employee::to_string(){
+
     char salOutput[10]; //need a size here
     string output = Person::to_string();    //use parent to_string
     output += "Job title " + jobTitle;
     std::sprintf(salOutput, " $%.2f", salary);//two decimal places
+
+
     output += salOutput;
     //to_string(salary)
 
