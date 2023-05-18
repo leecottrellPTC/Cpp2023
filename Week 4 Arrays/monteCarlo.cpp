@@ -34,6 +34,9 @@ int main()
     int hitMax = 260;
     randEngine.seed(time(NULL));
 
+    //The random variable X = the player's batting average can be modeled by a normal distribution with mean µ = 0.261 and standard deviation σ = 0.034.
+    //use 450 at bats
+    //use normal for hits, 117 mean, 15 std
     uniform_int_distribution<int> rndHit(hitMin, hitMax);  // better than rand
     normal_distribution<double> rndWalk(walkAvg, walkStd); // random based on the normal curve
     
