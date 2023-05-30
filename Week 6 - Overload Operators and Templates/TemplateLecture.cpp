@@ -5,7 +5,7 @@
 #include <vector>
 #include "FoodItem.cpp"
 #include "GenClass.cpp"
-#include "c:\data\myHeader.h"
+#include "c:\data\myHeader.h"+
 
 using namespace std;
 using namespace mySpace;
