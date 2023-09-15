@@ -60,6 +60,14 @@ void setKnownConnection(int matrix[NODES][NODES],int row, int col,
     }
 }
 
+void setKnownConnectionWeight(int matrix[NODES][NODES],int row, int col, 
+    int weight, bool directed = false){
+    matrix[row][col] = weight;
+    if(directed == false){
+        matrix[col][row] = weight;
+    }
+}
+
 void showAllConnectionsFromNode(int matrix[NODES][NODES], int node){
     int startNode = node;       //hold onto original node
     queue<int> links;           //places to visit
@@ -87,17 +95,20 @@ void showAllConnectionsFromNode(int matrix[NODES][NODES], int node){
 }
 int main(){
     srand(time(NULL));
-    int matrix[NODES][NODES];
+    int matrix[NODES][NODES];//graph
     initilizeArray(matrix);
     //initilizeRandomArray(matrix);
     // setKnownConnection(matrix, 0, 1);
     // setKnownConnection(matrix, 2, 3);
     // setKnownConnection(matrix, 3, 4, true);
-    setKnownConnection(matrix, 1, 2);
-    setKnownConnection(matrix, 4, 3);
-    setKnownConnection(matrix, 4, 1);
-    setKnownConnection(matrix, 5, 6);
-    setKnownConnection(matrix, 0, 1);
+   // setKnownConnection(matrix, 1, 2);
+    //setKnownConnection(matrix, 4, 3);
+    //setKnownConnection(matrix, 4, 1);
+    //setKnownConnection(matrix, 5, 6);
+    //setKnownConnection(matrix, 0, 1);
+
+    setKnownConnectionWeight(matrix, 0, 2, 7);
+    setKnownConnectionWeight(matrix, 0, 3, 4, true);
 
     displayMatrix(matrix);
     showAllConnectionsFromNode(matrix, 0);
